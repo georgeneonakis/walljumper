@@ -1,0 +1,22 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PlayerHit.cs">
+    <Files>
+      <File FileName="Assets\Scripts\PlayerJump.cs" Line="99" Column="21" />
+      <File FileName="Assets\Scripts\CameraMover.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\GameOver.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\LevelCleanup.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\LevelGenerator.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ScoreTracker.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\LevelTrigger.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PlayerHit.cs" Line="27" Column="3" />
+      <File FileName="Assets\Scripts\EnemyMover.cs" Line="7" Column="31" />
+      <File FileName="Assets\Scripts\ShieldPowerup.cs" Line="12" Column="24" />
+      <File FileName="Assets\Scripts\BoostPowerup.cs" Line="9" Column="39" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
