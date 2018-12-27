@@ -76,6 +76,7 @@ public class PlayerJump : MonoBehaviour
 
 	public IEnumerator Boost() {
 		DisableControls ();
+        StopCoroutine("Dash");
 		sr.color = new Color (0, 217, 198, 255);
 		rb.gravityScale = 0;
 		coll.isTrigger = true;
