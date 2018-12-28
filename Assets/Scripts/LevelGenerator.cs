@@ -9,14 +9,17 @@ public class LevelGenerator : MonoBehaviour {
 	public GameObject[] hardLevels;
 	public GameObject[] expertLevels;
 	public ScoreTracker scoreTracker;
+    public int easyThreshold;
+    public int medThreshold;
+    public int hardThreshold;
 
 	public void GenerateLevel(float position) {
 		float score = scoreTracker.GetScore ();
-		if (score < 2000) {
+		if (score < easyThreshold) {
 			Generate (easyLevels, position);
-		} else if (score < 7000) {
+		} else if (score < medThreshold) {
 			Generate (intermediateLevels, position);
-		} else if (score < 12000) {
+		} else if (score < hardThreshold) {
 			Generate (hardLevels, position);
 		} else {
 			Generate (expertLevels, position);

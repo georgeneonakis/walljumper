@@ -152,10 +152,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 1181040363687252, guid: 701484b8569c5f74aa36d5199182d70f, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 701484b8569c5f74aa36d5199182d70f, type: 2}
   m_IsPrefabAsset: 0
@@ -304,8 +300,12 @@ MonoBehaviour:
   - {fileID: 1557745556669300, guid: dab9e120e12371140acf743ca5b92660, type: 2}
   hardLevels:
   - {fileID: 1454021083124416, guid: c9c7f08a43da07946a7ab0b8a0170e89, type: 2}
+  - {fileID: 1897477779433266, guid: 9e5ca9398733c25458e0183b6953794c, type: 2}
   expertLevels: []
   scoreTracker: {fileID: 490813380}
+  easyThreshold: 1000
+  medThreshold: 2000
+  hardThreshold: 3000
 --- !u!1 &1253608553
 GameObject:
   m_ObjectHideFlags: 0

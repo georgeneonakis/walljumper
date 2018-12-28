@@ -1,0 +1,199 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1897477779433266}
+  m_IsPrefabAsset: 1
+--- !u!1 &1897477779433266
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4081785036617582}
+  - component: {fileID: 114595474409030988}
+  - component: {fileID: 114411857715792762}
+  m_Layer: 0
+  m_Name: TrickySpikes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1940090817768102
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4967670092955548}
+  m_Layer: 0
+  m_Name: Upper Bound
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4081785036617582
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1897477779433266}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4967670092955548}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4967670092955548
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1940090817768102}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 10, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4081785036617582}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114411857715792762
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1897477779433266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10264f098d406c246b7997eb6fb1ce7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objects:
+  - {fileID: 1597109038014974, guid: bb484cf1d1ba22d4d8f8f9fe476c1390, type: 2}
+  - {fileID: 1597109038014974, guid: bb484cf1d1ba22d4d8f8f9fe476c1390, type: 2}
+  - {fileID: 1597109038014974, guid: bb484cf1d1ba22d4d8f8f9fe476c1390, type: 2}
+  - {fileID: 1597109038014974, guid: bb484cf1d1ba22d4d8f8f9fe476c1390, type: 2}
+  - {fileID: 1597109038014974, guid: bb484cf1d1ba22d4d8f8f9fe476c1390, type: 2}
+  - {fileID: 1053024264628502, guid: 0ac267b23ad28e74883d49b1302c81d5, type: 2}
+  - {fileID: 1053024264628502, guid: 0ac267b23ad28e74883d49b1302c81d5, type: 2}
+  - {fileID: 1053024264628502, guid: 0ac267b23ad28e74883d49b1302c81d5, type: 2}
+  - {fileID: 1053024264628502, guid: 0ac267b23ad28e74883d49b1302c81d5, type: 2}
+  - {fileID: 1053024264628502, guid: 0ac267b23ad28e74883d49b1302c81d5, type: 2}
+  - {fileID: 1053024264628502, guid: 0ac267b23ad28e74883d49b1302c81d5, type: 2}
+  - {fileID: 1053024264628502, guid: 0ac267b23ad28e74883d49b1302c81d5, type: 2}
+  - {fileID: 1053024264628502, guid: 0ac267b23ad28e74883d49b1302c81d5, type: 2}
+  - {fileID: 1053024264628502, guid: 0ac267b23ad28e74883d49b1302c81d5, type: 2}
+  - {fileID: 1053024264628502, guid: 0ac267b23ad28e74883d49b1302c81d5, type: 2}
+  - {fileID: 1053024264628502, guid: 0ac267b23ad28e74883d49b1302c81d5, type: 2}
+  - {fileID: 1053024264628502, guid: 0ac267b23ad28e74883d49b1302c81d5, type: 2}
+  - {fileID: 1053024264628502, guid: 0ac267b23ad28e74883d49b1302c81d5, type: 2}
+  - {fileID: 1053024264628502, guid: 0ac267b23ad28e74883d49b1302c81d5, type: 2}
+  - {fileID: 1053024264628502, guid: 0ac267b23ad28e74883d49b1302c81d5, type: 2}
+  - {fileID: 1053024264628502, guid: 0ac267b23ad28e74883d49b1302c81d5, type: 2}
+  - {fileID: 1053024264628502, guid: 0ac267b23ad28e74883d49b1302c81d5, type: 2}
+  - {fileID: 1053024264628502, guid: 0ac267b23ad28e74883d49b1302c81d5, type: 2}
+  - {fileID: 1053024264628502, guid: 0ac267b23ad28e74883d49b1302c81d5, type: 2}
+  - {fileID: 1437270051440542, guid: b5611562c95b4944098297bc6e1d44d5, type: 2}
+  positions:
+  - {x: 2, y: 1, z: 0}
+  - {x: -2, y: 3, z: 0}
+  - {x: 2, y: 5, z: 0}
+  - {x: -2, y: 7, z: 0}
+  - {x: 2, y: 9, z: 0}
+  - {x: 0.25, y: 2, z: 0}
+  - {x: -0.25, y: 2, z: 0}
+  - {x: -0.25, y: 4, z: 0}
+  - {x: 0.25, y: 4, z: 0}
+  - {x: -0.25, y: 6, z: 0}
+  - {x: 0.25, y: 6, z: 0}
+  - {x: -0.25, y: 8, z: 0}
+  - {x: 0.25, y: 8, z: 0}
+  - {x: 1.25, y: 3.5, z: 0}
+  - {x: 1.25, y: 4, z: 0}
+  - {x: -1.25, y: 5.5, z: 0}
+  - {x: -1.25, y: 6, z: 0}
+  - {x: 1.25, y: 7.5, z: 0}
+  - {x: 1.25, y: 8, z: 0}
+  - {x: 2, y: 2.5, z: 0}
+  - {x: 2, y: 6.5, z: 0}
+  - {x: -2, y: 4.5, z: 0}
+  - {x: -2, y: 8.5, z: 0}
+  - {x: -1.25, y: 9.5, z: 0}
+  - {x: 0, y: 5, z: 0}
+  rotations:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: -90}
+  - {x: 0, y: 0, z: 90}
+  - {x: 0, y: 0, z: 90}
+  - {x: 0, y: 0, z: -90}
+  - {x: 0, y: 0, z: 90}
+  - {x: 0, y: 0, z: -90}
+  - {x: 0, y: 0, z: 90}
+  - {x: 0, y: 0, z: -90}
+  - {x: 0, y: 0, z: 180}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 180}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 180}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 90}
+  - {x: 0, y: 0, z: 90}
+  - {x: 0, y: 0, z: -90}
+  - {x: 0, y: 0, z: -90}
+  - {x: 0, y: 0, z: 180}
+  - {x: 0, y: 0, z: 0}
+  scales:
+  - {x: 1, y: 10, z: 1}
+  - {x: 1, y: 10, z: 1}
+  - {x: 1, y: 10, z: 1}
+  - {x: 1, y: 10, z: 1}
+  - {x: 1, y: 10, z: 1}
+  - {x: 7.5, y: 4, z: 1}
+  - {x: 7.5, y: 4, z: 1}
+  - {x: 7.5, y: 4, z: 1}
+  - {x: 7.5, y: 4, z: 1}
+  - {x: 7.5, y: 4, z: 1}
+  - {x: 7.5, y: 4, z: 1}
+  - {x: 7.5, y: 4, z: 1}
+  - {x: 7.5, y: 4, z: 1}
+  - {x: 7.5, y: 4, z: 1}
+  - {x: 7.5, y: 4, z: 1}
+  - {x: 7.5, y: 4, z: 1}
+  - {x: 7.5, y: 4, z: 1}
+  - {x: 7.5, y: 4, z: 1}
+  - {x: 7.5, y: 4, z: 1}
+  - {x: 7.5, y: 4, z: 1}
+  - {x: 7.5, y: 4, z: 1}
+  - {x: 7.5, y: 4, z: 1}
+  - {x: 7.5, y: 4, z: 1}
+  - {x: 7.5, y: 4, z: 1}
+  - {x: 1, y: 1, z: 1}
+--- !u!114 &114595474409030988
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1897477779433266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07fda3e0c5f43da409cabf9cb842f88b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boundary: {fileID: 4967670092955548}
