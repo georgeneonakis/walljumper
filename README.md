@@ -5,7 +5,7 @@ Controls/Instructions:
 
 - Left-click or press spacebar to jump in an arc toward your cursor, with your mouse position at the peak of the jump.
 
-- Left-click or press spacebar in mid-air to cancel all momentum and perform a short, straight dash toward your cursor.
+- Left-click or press spacebar after jumping to cancel all momentum and perform a short, straight dash toward your cursor.
 
 - Reset both jumps by touching any surface, but note that touching the same surface twice in a row will not work!
 
